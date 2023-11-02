@@ -2,7 +2,7 @@
 #include <locale>
 #include <conio.h>
 
-
+//Класс стека с изменяемым размером
 	class MyStack
 	{
 	private:

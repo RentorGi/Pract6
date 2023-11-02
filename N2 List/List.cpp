@@ -2,6 +2,7 @@
 #include <locale>
 #include <conio.h>
 
+//Класс односвязного списка
 class MyList
 {
 private:
