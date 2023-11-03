@@ -63,6 +63,11 @@
 				return false;
 		}
 
+		bool IsFull(void) //Проверяет, полон ли стек
+		{
+			return this->GetSize() >= MaxSize;
+		}
+
 		int Peek()//Получение верхнего элемента стека без удаления
 		{
 
